@@ -14,11 +14,11 @@ export const About = () => {
             />
           </div>
          <div >
-         <h2 className="text-4xl font-semibold mt-5">Muhammad Talha</h2>
-          <p className="mt-2 text-2xl">Web Developer</p>
+         <h2 className="text-4xl font-semibold mt-5 max-sm:text-2xl">Muhammad Talha</h2>
+          <p className="mt-2 text-2xl max-sm:text-xl">Web Developer</p>
          </div>
         </div>
-        <div className="w-[45%] max-sm:w-auto text-3xl max-md:text-2xl max-md:w-[80%]">
+        <div className="w-[45%] max-sm:w-auto text-3xl max-md:text-2xl max-md:w-[80%] max-sm:text-xl">
           <p>
             I'm a passionate web developer with a love for creating stunning and
             performant user interfaces. My journey in web development began with
