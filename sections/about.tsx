@@ -1,7 +1,7 @@
 import Image from "next/link";
 export const About = () => {
   return (
-    <div className="text-black text-2xl dark:bg-dark-bg dark:text-white flex items-center justify-center">
+    <div className="text-black text-2xl dark:bg-dark-bg dark:text-white flex items-center  justify-center">
       <div className="flex flex-row max-md:flex-col justify-center items-center w-[100vw] h-screen ">
         <div className="w-[50%] max-md:w-[80%] flex items-center max-md:items-start max-md:mb-10  flex-col">
            
@@ -18,7 +18,7 @@ export const About = () => {
           <p className="mt-2 text-2xl max-sm:text-xl">Web Developer</p>
          </div>
         </div>
-        <div className="w-[45%] max-sm:w-auto text-3xl max-md:text-2xl max-md:w-[80%] max-sm:text-xl">
+        <div className="w-[45%] max-sm:px-4 max-sm:w-auto text-3xl max-md:text-2xl max-md:w-[80%] max-sm:text-xl">
           <p>
             I'm a passionate web developer with a love for creating stunning and
             performant user interfaces. My journey in web development began with
