@@ -10,13 +10,13 @@ export default function App() {
       <section id='home' className='  h-screen mx-auto'>
        <Home/>
       </section>
-      <section id='projects' className='dark:bg-dark-bg bg-radial-gradient max-sm:h-[80vh] h-[100vh] '>
+      <section id='projects' className='dark:bg-dark-bg bg-radial-gradient max-sm:h-[100vh] h-[80vh] '>
         <Projects/>
       </section>
       {/* <section id='skills' className='bg-radial-gradient h-[100vh]'>
         <Skills/>
       </section> */}
-      <section id='about' className='bg-radial-gradient dark:bg-dark-bg max-sm:mt-10 h-[130vh]'>
+      <section id='about' className='bg-radial-gradient dark:bg-dark-bg max-sm:mt-10 h-[100vh] max-sm:h-[130vh]'>
         <About/>
       </section>
       <section id='mail' className='bg-radial-gradient min-h-[80vh] h-[100vh]'>
