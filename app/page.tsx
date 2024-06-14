@@ -22,7 +22,7 @@ export default function App() {
       <section id='mail' className='bg-radial-gradient min-h-[80vh] h-[100vh]'>
         <Mail/>
       </section>
-      <section id='contact' className='bg-radial-gradient max-md:h-[80vh] lg:h-[40vh] max-xl:h-[60vh] max-sm:h-[110vh] dark:bg-dark-bg overflow-hidden '>
+      <section id='contact' className='bg-radial-gradient max-md:h-[80vh] lg:h-[40vh] max-xl:h-[60vh] max-sm:h-[140vh] dark:bg-dark-bg overflow-hidden '>
         <Contact/>
       </section>
 
