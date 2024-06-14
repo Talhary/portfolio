@@ -10,7 +10,7 @@ export default function App() {
       <section id='home' className='  h-screen mx-auto'>
        <Home/>
       </section>
-      <section id='projects' className='dark:bg-dark-bg bg-radial-gradient h-[80vh] '>
+      <section id='projects' className='dark:bg-dark-bg bg-radial-gradient max-sm:h-[80vh] h-[100vh] '>
         <Projects/>
       </section>
       {/* <section id='skills' className='bg-radial-gradient h-[100vh]'>
