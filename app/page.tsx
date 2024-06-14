@@ -16,7 +16,7 @@ export default function App() {
       {/* <section id='skills' className='bg-radial-gradient h-[100vh]'>
         <Skills/>
       </section> */}
-      <section id='about' className='bg-radial-gradient h-[130vh]'>
+      <section id='about' className='bg-radial-gradient dark:bg-dark-bg max-sm:mt-10 h-[130vh]'>
         <About/>
       </section>
       <section id='mail' className='bg-radial-gradient min-h-[80vh] h-[100vh]'>
