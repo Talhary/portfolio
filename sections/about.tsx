@@ -18,7 +18,7 @@ export const About = () => {
           <p className="mt-2 text-2xl">Web Developer</p>
          </div>
         </div>
-        <div className="w-[45%] text-3xl max-md:text-2xl max-md:w-[80%]">
+        <div className="w-[45%] max-sm:w-auto text-3xl max-md:text-2xl max-md:w-[80%]">
           <p>
             I'm a passionate web developer with a love for creating stunning and
             performant user interfaces. My journey in web development began with
