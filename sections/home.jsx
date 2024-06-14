@@ -35,7 +35,9 @@ const home = () => {
     <div className="">
       <div className="ralative">
         <nav className="h-[20vh]  flex items-center justify-between mx-10 text-yellow-500 ">
-          <div className=" h-20 w-20 rounded-full bg-primary1-normal"></div>
+          <div className=" h-20 w-20 rounded-full bg-primary1-normal">
+            <img src={'/image.png'} className="h-20 w-20 rounded-full object-contain"/>
+          </div>
           <div className="md:hidden ">
             <MainDropdownMenu />
           </div>
@@ -66,7 +68,7 @@ const home = () => {
             <h2 className="text-7xl tracking-tight text-text-primary font-semibold max-md:text-6xl">
               TALHA RIAZ
             </h2>
-            <p className="text-[22px] max-md:text-start  max-md:mt-5 max-md:ml-2">
+            <p className="text-[22px] max-md:text-start  max-md:mt-5 max-md:ml-2 dark:text-white">
               Front end & Backend
               <br className="md:hidden" /> web Developer
             </p>
@@ -79,7 +81,7 @@ const home = () => {
               </button>
             </div>
           </div>
-          <div className=" blur-md min-w-[250px] md:mr-20 max-md:hidden">
+          <div className="  min-w-[250px] md:mr-20 max-md:hidden">
             <Image
               width={300}
               height={300}
