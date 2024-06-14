@@ -218,7 +218,7 @@ export const InfiniteMovingCards = ({
         )}
       >
         {items.map((item, idx) => (
-          <div>
+          <div key={idx+1}>
           <div className="mx-10">
             {item.item}
 
