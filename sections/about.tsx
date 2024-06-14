@@ -19,7 +19,7 @@ export const About = () => {
             <p className="mt-2 text-2xl max-sm:text-xl">Web Developer</p>
           </div>
         </div>
-        <div className=" max-sm:w-auto text-3xl max-sm:px-10 max-md:text-2xl max-md:w-[80%] max-sm:text-xl w-[50%] max-md:w-[80%] flex items-center max-md:items-start max-md:mb-10  flex-col">
+        <div className=" max-sm:w-auto text-3xl max-sm:px-5 max-md:text-2xl max-md:w-[80%] max-sm:text-xl w-[45%] max-md:w-[80%] flex items-center max-md:items-start max-md:mb-10  flex-col">
           <p>
             I'm a passionate web developer with a love for creating stunning and
             performant user interfaces. My journey in web development began with
