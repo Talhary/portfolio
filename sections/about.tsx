@@ -1,7 +1,7 @@
 import Image from "next/link";
 export const About = () => {
   return (
-    <div className="text-black text-2xl dark:bg-dark-bg dark:text-white  h-screen ">
+    <div className="text-black text-2xl dark:bg-dark-bg dark:text-white flex items-center justify-center">
       <div className="flex flex-row max-md:flex-col justify-center items-center w-[100vw] h-screen ">
         <div className="w-[50%] max-md:w-[80%] flex items-center max-md:items-start max-md:mb-10  flex-col">
            
