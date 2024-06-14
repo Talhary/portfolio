@@ -1,0 +1,13 @@
+@tailwind components;
+@tailwind utilities;
+@tailwind base;
+html {
+    scroll-behavior: smooth;
+  }
+
+  @layer utilities {
+    .radial-gradient {
+      background: radial-gradient(circle, #ffffff 0%, #ecfdf9 100%);
+    }
+  }
+  
