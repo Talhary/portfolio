@@ -38,7 +38,18 @@ export function Mail() {
     setError(null);
    console.log(values)
     try {
-    
+      const res  = await emailjs.send("service_wk216q3" ,"template_g5nrv2j" ,values,{
+        publicKey:"6QgebGQkum2YAOKG5"
+    })
+       
+       if(res.status==200)
+        {
+          setIsSuccess(true)
+          setIsLoading(false)
+        }
+        else{
+            setError('Something goes wrong')
+          }
       } catch (err) {
       setError("Failed to send email");
     } finally {
