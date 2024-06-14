@@ -7,7 +7,7 @@ import { Skills } from '@/sections/skills';
 export default function App() {
   return (
     <main className="dark:bg-dark-bg bg-radial-gradient px-3 min-w-[400px] transition-all max-w-[1440px] mx-auto">
-      <section id='home' className='  h-screen mx-auto'>
+      <section id='home' className='  h-[120vh] mx-auto'>
        <Home/>
       </section>
       <section id='projects' className='dark:bg-dark-bg bg-radial-gradient max-sm:h-[100vh] h-[80vh] '>
