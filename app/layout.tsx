@@ -16,14 +16,18 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en"  suppressHydrationWarning className="">
+    <html  lang="en"  suppressHydrationWarning className="">
         <ThemeProvider
             attribute="class"
             defaultTheme="system"
             enableSystem
             disableTransitionOnChange
           >
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <div className="dark:bg-dark-bg">
+        {children}
+        </div>
+      </body>
       </ThemeProvider>
     </html>
   );

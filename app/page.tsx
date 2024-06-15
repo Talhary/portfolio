@@ -6,7 +6,7 @@ import { Projects } from '@/sections/projects';
 import { Skills } from '@/sections/skills';
 export default function App() {
   return (
-    <main className="overflow-hidden dark:bg-dark-bg bg-radial-gradient px-3 min-w-[400px] transition-all max-w-[1440px] mx-auto">
+    <main className="overflow-hidden dark:bg-dark-bg bg-radial-gradient mx-3 px-3 min-w-[340px]  transition-all max-w-[1440px">
       <section id='home' className='  h-[120vh] mx-auto'>
        <Home/>
       </section>

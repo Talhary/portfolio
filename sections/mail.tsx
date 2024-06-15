@@ -68,7 +68,7 @@ export function Mail() {
               name="firstName"
               render={({ field }) => (
                 <FormItem>
-                  <FormLabel className=" text-primary1-dark" >First Name</FormLabel>
+                  <FormLabel className=" " >First Name</FormLabel>
                   <FormControl>
                     <Input placeholder="Enter your first name" {...field} />
                   </FormControl>
@@ -81,7 +81,7 @@ export function Mail() {
               name="lastName"
               render={({ field }) => (
                 <FormItem>
-                  <FormLabel  className=" text-primary1-dark" >Last Name</FormLabel>
+                  <FormLabel  className="" >Last Name</FormLabel>
                   <FormControl>
                     <Input placeholder="Enter your last name" {...field} />
                   </FormControl>
@@ -94,7 +94,7 @@ export function Mail() {
               name="email"
               render={({ field }) => (
                 <FormItem>
-                  <FormLabel  className=" text-primary1-dark" >Email</FormLabel>
+                  <FormLabel  className="" >Email</FormLabel>
                   <FormControl>
                     <Input type="email" placeholder="Enter your email" {...field} />
                   </FormControl>
@@ -107,9 +107,9 @@ export function Mail() {
               name="message"
               render={({ field }) => (
                 <FormItem>
-                  <FormLabel  className=" text-primary1-dark" >Message</FormLabel>
+                  <FormLabel  className=" " >Message</FormLabel>
                   <FormControl>
-                    <textarea className= "dark:bg-card-bg focus:border-text-secondary-dark border w-full p-2 border-secondary1-dark-hover" placeholder="Enter your message" {...field} />
+                    <textarea className= "dark:bg-card-bg focus:border-text-secondary-dark border w-full p-2 " placeholder="Enter your message" {...field} />
                   </FormControl>
                   <FormMessage />
                 </FormItem>
