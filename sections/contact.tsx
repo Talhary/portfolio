@@ -1,9 +1,9 @@
 import Link from 'next/link'
 const sections = [
   {heading:'About',secs:[{name:"About me",url:'#about'},{name:"Portfoli",url:'#'},{name:"Resume",url:''}]},
-  {heading:'Contact',secs:[{name:"Email",url:''},{name:"Linkedin",url:''},{name:"Github",url:''}]},
-  {heading:'Legal',secs:[{name:"Privacy Policy",url:''},{name:"Terms & services",url:'/'}]},
-  {heading:'Follow',secs:[{name:"Twitter",url:''},{name:"Instagram",url:''},{name:"Facebook",url:''}]},
+  {heading:'Contact',secs:[{name:"Email",url:'https://mail.google.com/mail/?view=cm&fs=1&to=talhariaz5425869@gmail.com&su=Hire&body=Hi+I+want+to+hire+you&bcc=talhariaz5425869@gmail.com'},{name:"Linkedin",url:'https://www.linkedin.com/in/talha-riaz-46987628a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'},{name:"Github",url:'https://github.com/talhary'}]},
+  // {heading:'Legal',secs:[{name:"Privacy Policy",url:''},{name:"Terms & services",url:'/'}]},
+  // {heading:'Follow',secs:[{name:"Twitter",url:''},{name:"Instagram",url:''},{name:"Facebook",url:''}]},
 ]
 export const Contact = () => {
   return (
