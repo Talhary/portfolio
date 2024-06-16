@@ -70,10 +70,10 @@ const home = () => {
               <br className="md:hidden" /> web Developer
             </p>
             <div className="max-md:text-xl flex md:gap-x-10 items-center justify-between max-md:justify-start max-md:gap-x-10 mr-20 mt-[7vh] ml-3">
-              <button className="btn border-none  hover:text-white hover:bg-primary1-normal-hover bg-secondary1-normal max-md:px-4 max-md:py-2  text-dark-bg px-3 py-1 rounded text-xl">
+              <button href="#projects"  className="btn border-none  hover:text-white hover:bg-primary1-normal-hover bg-secondary1-normal max-md:px-4 max-md:py-2  text-dark-bg px-3 py-1 rounded text-xl">
                 Projects
               </button>
-              <button className="btn bg-white text-black hover:text-white border px-3 py-1 max-md:px-4 max-md:py-2 border-black rounded-none">
+              <button href="#email" className="btn bg-white text-black hover:text-white border px-3 py-1 max-md:px-4 max-md:py-2 border-black rounded-none">
                 Contact
               </button>
             </div>
