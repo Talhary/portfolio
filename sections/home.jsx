@@ -45,7 +45,7 @@ const home = () => {
                 <Link
                   key={i + 1}
                   href={el.href}
-                  className="text-xl hover:bg-secondary1-light-active transition-all rounded-md  bg-secondary1-normal max-lg:px-1 max-lg:py-0 max-lg:text-[16px] px-3 py-1 text-black "
+                  className="text-xl hover:opacity-50 transition-all rounded-md   max-lg:px-1 max-lg:py-0 max-lg:text-[16px] px-3 py-1 text-black "
                 >
                   {el.name}
                 </Link>
