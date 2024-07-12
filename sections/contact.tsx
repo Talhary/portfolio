@@ -8,7 +8,7 @@ const sections = [
 ]
 export const Contact = () => {
   return (
-    <div className=''>
+    <div className='lg:mx-[10%]'>
       <div className=' text-black gap-y-10 dark:text-white flex flex-wrap max-sm:px-3 sm:px-4 md:px-2  lg: px-20 items-start h-20 py-20  max-h-20 justify-between'>
        {sections.map((section,i)=>{
         return <div key={i+1}>

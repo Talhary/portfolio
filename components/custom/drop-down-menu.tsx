@@ -16,7 +16,7 @@ export const MainDropdownMenu = () => {
 
   return (
     <div className="dropdown">
-      <button className="m-1 btn dark:bg-dark-bg bg-transparent hover:bg-white"  onClick={handleSummaryClick}>
+      <button className="m-1 btn dark:bg-dark-bg bg-transparent hover:bg-white border-none"  onClick={handleSummaryClick}>
         <CiMenuFries  className="text-black  dark:text-white  " size={30} />
       </button>
       <ul className={`dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52 ${hide ? 'hidden' : ''}`}>
