@@ -14,6 +14,13 @@ const projcts = [
     githublink: "https://github.com/Talhary/t3gallay",
     imglink:'/gallary-app.png' ,
     stack: ["Next.js", "Drizzle", "TypeScript", "TailwindCss", "Clerk.io",'Sentry'],
+  },
+  {
+    name:'Tshirt Store',
+    weblink: "https://ecommerce-store-btr7jo36x-talharys-projects.vercel.app/",
+    githublink: "https://github.com/Talhary/ecommerce-store",
+    imglink:'/store-app.png' ,
+    stack: ["Next.js",  "TypeScript", "TailwindCss"],
   }
 ];
 export const Projects = () => {
