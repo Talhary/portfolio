@@ -17,7 +17,7 @@ const projcts = [
   },
   {
     name:'Tshirt Store',
-    weblink: "https://ecommerce-store-btr7jo36x-talharys-projects.vercel.app/",
+    weblink: "https://ecommerce-store-git-main-talharys-projects.vercel.app/",
     githublink: "https://github.com/Talhary/ecommerce-store",
     imglink:'/store-app.png' ,
     stack: ["Next.js",  "TypeScript", "TailwindCss"],
