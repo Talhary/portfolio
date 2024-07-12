@@ -38,7 +38,9 @@ export const Projects = () => {
                 <img className="rounded-[20px]" src={project.imglink} height={300} width={250} alt={project.name}/>
               </div>
               <h2 className=" dark:text-white text-black mt-4 mx-3 font-semibold">{project.name}</h2>
-              <div className="flex flex-wrap mx-2 mt-5 gap-y-1">
+              
+             <div className="flex  flex-col  min-h-[210px] justify-between">
+             <div className="flex flex-wrap mx-2 mt-5 gap-y-1">
                 {project.stack.map((el, i) => {
                   return (
                     <div className="text-sm dark:bg-dark-bg dark:text-white bg-white border border-primary1-normal rounded-full odd:border-tertiary-normal text-primary1-darker  px-2 py-1 m-1" key={i + 1}>
@@ -50,7 +52,9 @@ export const Projects = () => {
               <div className="">
                 <ProjectButtons githublink={project.githublink} weblink={project.weblink}/>
               </div>
+             </div>
             </div>
+            
           );
         })}
       </div>
